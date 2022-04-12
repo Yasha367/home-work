@@ -13,6 +13,9 @@
 .list{
     list-style: none;
 }
+.link {
+    text-decoration: none;
+  }
 .logo-text{
     font-family: 'Raleway';
     font-style: normal;
@@ -22,7 +25,20 @@
     letter-spacing: 0.03em;
 }
 body{
-    font-family: Roboto;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 /* ---------------------HEADER-------------------------- */
 .header{
@@ -77,6 +93,16 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+.order-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
 .order-text{
     font-family: 'Roboto';
     font-weight: 700;
@@ -86,7 +112,6 @@ body{
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-
     color: #FFFFFF;
 }
 /* -----------------------OCCUPATIANS------------------------ */
@@ -110,6 +135,9 @@ body{
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+}
+.occupations-img{
+    width: 370px 294px;
 }
 /* ---------------------TEAM-------------------------- */
 .team{
@@ -150,6 +178,7 @@ body{
     color: #2196F3;
 }
 .footer-map{
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -157,6 +186,7 @@ body{
     color: #FFFFFF;
 }
 .footer-contacts{
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

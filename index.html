@@ -3,27 +3,27 @@
 
 <head>
     <title>WebStudio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100;500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;900&family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
         <nav>
-            <h2 lang="en" class="logo-first logo-text">Web<span class="logo-second logo-text">Studio</span></h2>
             <ul class="header-list list">
-                <li><a href="" class="header-link-studio">Студия</a></li>
-                <li><a href="" class="header-link">Портфолио</a></li>
-                <li><a href="" class="header-link">Контакты</a></li>
+                <li><a href="" lang="en" class="logo-first logo-text link">Web<span class="logo-second logo-text link">Studio</span></a></li>
+                <li><a href="" class="header-link-studio link">Студия</a></li>
+                <li><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
+                <li><a href="" class="header-link link">Контакты</a></li>
             </ul>
-            <a href="mailto: info@devstudio.com" class="header-contacts">info@devstudio.com</a>
-            <a href="tel: +38 096 111 11 11" class="header-contacts">+38 096 111 11 11</a>
+            
         </nav>
+        <ul class="header-list-contacs list">
+            <li><a href="mailto: info@devstudio.com" class="header-contacts link">info@devstudio.com</a></li>
+            <li><a href="tel: +38 096 111 11 11" class="header-contacts link">+38 096 111 11 11</a></li>
+        </ul>
     </header>
     
     <main class="main">
@@ -33,57 +33,68 @@
         </section>
         <section class="occupations">
             <ul class="occupations list">
-                <li class="occupations-top-text">Внимание к деталям</li>
-                <p class="occupations-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                <li class="occupations-top-text">Пунктуальность</li>
-                <p class="occupations-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                <li class="occupations-top-text">Планирование</li>
-                <p class="occupations-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                <li class="occupations-top-text">Современные технологии</li>
-                <p class="occupations-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                <li>
+                    <h3 class="occupations-top-text">Внимание к деталям</h3>
+                    <p class="occupations-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                </li>
+                <li>
+                    <h3 class="occupations-top-text">Пунктуальность</h3>
+                    <p class="occupations-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                </li>
+                <li>
+                    <h3 class="occupations-top-text">Планирование</h3>
+                    <p class="occupations-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                </li>
+                <li>
+                    <h3 class="occupations-top-text">Современные технологии</h3>
+                    <p class="occupations-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                </li>
             </ul>
         </section>
         <section class="occupations">
             <h2 class="occupations-main-title">Чем мы занимаемся</h2>
             <ul class="occupations-list list">
-                <li><img src="./img-sitebar/img1.jpg" alt="клавиатура в руках"></li>
-                <li><img src="./img-sitebar/img2.jpg" alt="телефон в руках"></li>
-                <li><img src="./img-sitebar/img3.jpg" alt="планшет в руках"></li>
+                <li><img src="./img-sitebar/img1.jpg" alt="клавиатура в руках" class="occupations-img"></li>
+                <li><img src="./img-sitebar/img2.jpg" alt="телефон в руках" class="occupations-img"></li>
+                <li><img src="./img-sitebar/img3.jpg" alt="планшет в руках" class="occupations-img"></li>
             </ul>
         </section>
         <section class="team">
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list list">
                 <li>
-                    <img src="./img-sitebar/boy1.jpg" alt="парень вв красной рубашке" class="team-img">
-                    <p class="team-name">Игорь Демьяненко</p>
+                    <img src="./img-sitebar/boy1.jpg" alt="парень вв красной рубашке" class="team-img" width="270px 260px">
+                    <h3 class="team-name">Игорь Демьяненко</h3>
                     <p lang="en" class="team-work">Product Designer</p>
                 </li>
                 <li>
-                    <img src="./img-sitebar/gurl.jpg" alt="девушка" class="team-img">
-                    <p class="team-name">Ольга Репина</p>
+                    <img src="./img-sitebar/gurl.jpg" alt="девушка" class="team-img" width="270px 260px">
+                    <h3 class="team-name">Ольга Репина</h3>
                     <p lang="en" class="team-work">Frontend Developer</p>
                 </li>
                 <li>
-                    <img src="./img-sitebar/boy2.jpg" alt="парень в голубой рубашке" class="team-img">
-                    <p class="team-name">Николай Тарасов</p>
+                    <img src="./img-sitebar/boy2.jpg" alt="парень в голубой рубашке" class="team-img" width="270px 260px">
+                    <h3 class="team-name">Николай Тарасов</h3>
                     <p lang="en" class="team-work">Marketing</p>
                 </li>
                 <li>
-                    <img src="./img-sitebar/boy3.jpg" alt="парень в чёрной футболке" class="team-img">
-                    <p class="team-name">Михаил Ермаков</p>
+                    <img src="./img-sitebar/boy3.jpg" alt="парень в чёрной футболке" class="team-img" width="270px 260px">
+                    <h3 class="team-name">Михаил Ермаков</h3>
                     <p lang="en" class="team-work">UI Designer</p>
                 </li>
             </ul>
         </section>
     </main>
     <footer class="footer">
-        <h2 lang="en" class="footer-logo-first logo-text">Web<span class="footer-logo-second logo-text">Studio</span></h2>
+        <ul class="footer-logo-list list">
+            <li><a href="" lang="en" class="footer-logo-first logo-text link">Web<span class="footer-logo-second logo-text">Studio</span></a></li>
+        </ul>
+        
         <address class="footer-addres">
             <ul class="footer-list list">
-                <li><a href="https://goo.gl/maps/pgxZnRvCsUiQfF88A" target="_blank" rel="noopener, noindex, nofolow" class="footer-map">г.Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a href="mailto: info@devstudio.com" class="footer-contacts">info@devstudio.com</a></li>
-                <li><a href="tel: +38 096 111 11 11" class="footer-contacts">+38 096 111 11 11</a></li>
+                <li><a href="https://goo.gl/maps/pgxZnRvCsUiQfF88A" target="_blank" rel="noopener, noindex, nofolow" class="footer-map link">г.Киев, пр-т Леси Украинки, 26</a></li>
+                <li><a href="mailto: info@devstudio.com" class="footer-contacts link">info@devstudio.com</a></li>
+                <li><a href="tel: +38 096 111 11 11" class="footer-contacts link">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>

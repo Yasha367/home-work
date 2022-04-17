@@ -2,12 +2,7 @@
     --header-link: #212121;
     --logo-title-first: #2196F3;
     --logo-title-second: #000;
-    --header-contacts: #757575;
-    --foter-contacts: #757575;
-    --occupations-text: #757575;
     --team-name: #212121;
-    --team-work: #757575;
-    --footer-contacts: #757575;
     --leading-page: #2196f3;
 }
 .list{
@@ -37,8 +32,9 @@
     margin: -1px;
 }
 body{
-    font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #757575;
 }
 
 /* ---------------------HEADER-------------------------- */
@@ -108,7 +104,7 @@ body{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     display: flex;
     align-items: center;
     text-align: center;
@@ -128,7 +124,6 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--occupations-text);
 }
 .occupations-main-title{
     font-weight: 700;
@@ -166,7 +161,6 @@ body{
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--team-work);
 }
 /* ---------------------FOOTER-------------------------- */
 .footer{
@@ -180,7 +174,6 @@ body{
 }
 .footer-map{
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -188,7 +181,6 @@ body{
 }
 .footer-contacts{
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -231,9 +223,7 @@ body{
     color: #212121;
 }
 .gallery-text{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    color: #757575;
     }
